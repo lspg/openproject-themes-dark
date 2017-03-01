@@ -25,5 +25,7 @@ module OpenProject::Themes::Dark
         requires_openproject ">= 4.0.0"
       end
     end
+
+    assets %w(dark-theme/favicon.ico dark-theme/logo_lds.png)
   end
 end
