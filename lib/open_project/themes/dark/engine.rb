@@ -1,3 +1,5 @@
+require 'open_project/plugins'
+
 module OpenProject::Themes::Dark
   class Engine < ::Rails::Engine
     engine_name :openproject_themes_dark
